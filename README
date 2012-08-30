@@ -1,0 +1,15 @@
+# dynamo20
+
+A quick hack to update No-Ip dynamic DNS entries.
+
+## Usage
+
+lein uberjar
+
+java -jar dynamo20-1.0.0-SNAPSHOT-standalone.jar -u <username> -p <password> -f <hosts...>
+
+## License
+
+Copyright (C) 2012 Wayne Rittimann, Jr.
+
+Distributed under the Eclipse Public License, the same as Clojure.
